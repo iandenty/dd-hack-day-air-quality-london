@@ -1,0 +1,38 @@
+.hero {
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  color: #ffffff;
+}
+
+.map {
+  width: 100%;
+  height: 60vh;
+}
+
+.leaflet-control-container .leaflet-routing-container {
+  opacity: .9;
+}
+
+.leaflet-control-container .leaflet-routing-geocoders  {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.leaflet-control-container .leaflet-routing-geocoder {
+
+}
+
+.leaflet-control-container .leaflet-routing-add-waypoint  {
+  display: none;
+}
+
+.leaflet-control-container .leaflet-routing-alt {
+    display: none;
+}
+
+.popup__title {
+  font-weight: bold;
+}
+
+.popup__title.popup__title--below { color: #3c763d; }
+.popup__title.popup__title--above { color: #a94442; }
